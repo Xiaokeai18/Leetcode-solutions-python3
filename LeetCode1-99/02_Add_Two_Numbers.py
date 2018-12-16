@@ -13,7 +13,6 @@ class Solution:
         """
         opt = l1
         plus = 0
-        print(l1.val)
         l1.val = l1.val + l2.val +plus
         
         if l1.val > 9:
