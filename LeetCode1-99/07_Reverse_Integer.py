@@ -1,15 +1,38 @@
 class Solution:
-    def twoSum(self, nums, target):
+    def reverse(self, x):
         """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type x: int
+        :rtype: int
         """
-        hash = {}
-        
-        for i in range(0,len(nums)):
-            hash[nums[i]] = i
-        for i in range(0,len(nums)):
-            if (target-nums[i]) in hash :
-                if hash.get(target-nums[i])!=i:
-                    return [i,hash.get(target-nums[i])]
+        x_bit = []
+        len = 0
+        x_rev = 0
+
+        if x > 0 :
+            while x > 0 :
+                x_bit.append(x%10)
+                x = x//10
+                len = len + 1
+            for i in x_bit:
+                len = len - 1
+                x_rev = x_rev + i*(10**len)  
+            if x_rev <= (2**31)-1:
+                return x_rev
+            else:
+                return 0
+
+        if x < 0 :
+            x = -x
+            while x > 0 :
+                x_bit.append(x%10)
+                x = x//10
+                len = len + 1
+            for i in x_bit:
+                len = len - 1
+                x_rev = x_rev + i*(10**len)      
+            if x_rev <= (2**31):
+                return -x_rev
+            else:
+                return 0
+        if x == 0:
+            return 0        
