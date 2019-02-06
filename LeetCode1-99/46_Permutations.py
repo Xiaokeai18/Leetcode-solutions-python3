@@ -1,19 +1,19 @@
 class Solution(object):
     def permute(self, nums):
         if nums==[]: return [[]]
-        outcome=[]
-        self.core(nums,0,outcome)
-        return outcome
+        opt=[]
+        self.generate(nums,0,opt)
+        return opt
 
-    def core(self,nums,left,outcome):
+    def generate(self,nums,left,opt):
         if left==len(nums)-1:
-            outcome.append(nums[:])
+            opt.append(nums[:])
             return 
         else:
             for i in range(left,len(nums)):
                 if i==left:
-                    self.core(nums,left+1,outcome)
+                    self.generate(nums,left+1,opt)
                 else:
                     nums[left],nums[i]=nums[i],nums[left]
-                    self.core(nums,left+1,outcome)
+                    self.generate(nums,left+1,opt)
                     nums[left],nums[i]=nums[i],nums[left]
