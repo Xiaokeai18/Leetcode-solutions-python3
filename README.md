@@ -30,4 +30,6 @@ Leetcode的python/python3解法，不定期更新
 41         | [缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive) | 简单 |   [41_First_Missing_Positive.py](/LeetCode1-99/41_First_Missing_Positive.py)
 46         | [全排列](https://leetcode-cn.com/problems/permutations/) | 中等 |   [46_Permutations.py](/LeetCode1-99/46_Permutations.py)
 47         | [全排列 II](https://leetcode-cn.com/problems/permutations-ii/) | 中等 |   [47_Permutations_II.py](/LeetCode1-99/47_Permutations_II.py)
+48         | [旋转图像](https://leetcode-cn.com/problems/rotate-image/) | 中等 |   [48_Rotate_Image.py](/LeetCode1-99/48_Rotate_Image.py)
+num         | []() | 简单 |   [](/LeetCode1-99/)
 num         | []() | 简单 |   [](/LeetCode1-99/)
