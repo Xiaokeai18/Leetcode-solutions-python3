@@ -18,6 +18,8 @@ Leetcode的python/python3解法，不定期更新
 13         | [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/) | 简单 |   [13_Roman_to_Integer.py](/LeetCode1-99/13_Roman_to_Integer.py) 
 14         | [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/) | 简单 |   [14_Longest_Common_Prefix.py](/LeetCode1-99/14_Longest_Common_Prefix.py) 
 15         | [三数之和](https://leetcode-cn.com/problems/3sum/) | 中等 |   [15_3Sum.py](/LeetCode1-99/15_3Sum.py) 
+17         | [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) | 中等 |   [17_Letter_Combinations_of_a_Phone_Number.py](/LeetCode1-99/17_Letter_Combinations_of_a_Phone_Number.py)
+18         | [四数之和](https://leetcode-cn.com/problems/4sum/) | 中等 |   [18_4Sum.py](/LeetCode1-99/18_4Sum.py)
 20         | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses) | 简单 |   [20_Valid_Parentheses.py](/LeetCode1-99/20_Valid_Parentheses.py) 
 21         | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists) | 简单 |   [21_Merge_Two_Sorted_Lists.py](/LeetCode1-99/21_Merge_Two_Sorted_Lists.py) 
 26         | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array) | 简单 |   [26_Remove_Duplicates_from_Sorted_Array.py](/LeetCode1-99/26_Remove_Duplicates_from_Sorted_Array.py) 
