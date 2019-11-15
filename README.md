@@ -22,6 +22,8 @@ Leetcode的python/python3解法，不定期更新
 18         | [四数之和](https://leetcode-cn.com/problems/4sum/) | 中等 |   [18_4Sum.py](/LeetCode1-99/18_4Sum.py)
 20         | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses) | 简单 |   [20_Valid_Parentheses.py](/LeetCode1-99/20_Valid_Parentheses.py) 
 21         | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists) | 简单 |   [21_Merge_Two_Sorted_Lists.py](/LeetCode1-99/21_Merge_Two_Sorted_Lists.py) 
+22         | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/) | 中等 |   [22_Generate_Parentheses.py](/LeetCode1-99/) 
+24         | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | 中等  |   [24_Swap_Nodes_in_Pairs.py](/LeetCode1-99/24_Swap_Nodes_in_Pairs.py)
 26         | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array) | 简单 |   [26_Remove_Duplicates_from_Sorted_Array.py](/LeetCode1-99/26_Remove_Duplicates_from_Sorted_Array.py) 
 27         | [移除元素](https://leetcode-cn.com/problems/remove-element) | 简单 |   [27_Remove_Element.py](/LeetCode1-99/27_Remove_Element.py)
 28         | [实现strStr()](https://leetcode-cn.com/problems/implement-strstr) | 简单 |   [28_Implement_strStr.py](/LeetCode1-99/28_Implement_strStr.py)
